@@ -1,3 +1,7 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+
 :root {
   --white: #ffffff;
   --gray: #717171;
@@ -35,9 +39,4 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.AreaPost{ 
-  background-color: var(--bg-main);
- display: flex;
- flex-direction: column;
- grid-gap: 3.125rem;
-}
+`;

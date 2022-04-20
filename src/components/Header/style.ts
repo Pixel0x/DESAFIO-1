@@ -1,17 +1,19 @@
-.Header {
+import styled from "styled-components";
+
+export const CHeader = styled.header`
   width: 100%;
   background: var(--linear);
   padding: 1.25rem;
-}
+`;
 
-.Container {
+export const Container = styled.div`
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 2.5rem;
-}
+`;
 
-.Nav {
+export const Nav = styled.div`
   display: flex;
   justify-content: space-between;
   padding-bottom: 4.375rem;
@@ -23,9 +25,9 @@
     line-height: 1.875rem;
     color: var(--white);
   }
-}
+`;
 
-.Input {
+export const Input = styled.div`
   width: 100%;
   position: relative;
   display: flex;
@@ -54,4 +56,4 @@
   label {
     padding: 1.25rem;
   }
-}
+`;
